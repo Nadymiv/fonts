@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Іконки Font Awesome</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .icons-section {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+      }
+
+      .icons-section h2 {
+        color: #333;
+        margin-bottom: 30px;
+      }
+
+      .icon-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+
+      .icon-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        min-width: 150px;
+      }
+
+      .icon-item:hover {
+        transform: translateY(-5px);
+      }
+
+      .icon-item i {
+        font-size: 2.5rem;
+        color: #007bff;
+      }
+
+      .icon-item p {
+        margin: 0;
+        color: #555;
+        font-size: 0.9rem;
+      }
+
+      /* Специфічні кольори для різних іконок */
+      .fa-phone {
+        color: #28a745 !important;
+      }
+      .fa-envelope {
+        color: #dc3545 !important;
+      }
+      .fa-instagram {
+        background: radial-gradient(
+          circle at 30% 107%,
+          #fdf497 0%,
+          #fdf497 5%,
+          #fd5949 45%,
+          #d6249f 60%,
+          #285aeb 90%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      /* Адаптивність */
+      @media (max-width: 768px) {
+        .icon-container {
+          gap: 20px;
+        }
+
+        .icon-item {
+          min-width: 120px;
+          padding: 15px;
+        }
+
+        .icon-item i {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="icons-section">
+      <h2>Наші контакти</h2>
+      <div class="icon-container">
+        <div class="icon-item">
+          <i class="fa-solid fa-phone"></i>
+          <p>+380 67 123 45 67</p>
+        </div>
+        <div class="icon-item">
+          <i class="fa-solid fa-envelope"></i>
+          <p>info@example.com</p>
+        </div>
+        <div class="icon-item">
+          <i class="fa-brands fa-instagram"></i>
+          <p>@camping_ua</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

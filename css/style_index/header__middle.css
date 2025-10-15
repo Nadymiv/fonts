@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header__middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), #0e0902d8);
+}
+
+.slogan {
+  height: 60px;
+}
+
+.header__search-cart {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__search-cart input {
+  width: 200px;
+  height: 20px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+}
+
+.header__search-cart input:hover {
+  width: 400px;
+  height: 30px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out 0.1s;
+}
+
+.header__search-cart input::placeholder {
+  font-style: italic;
+  font-family: "Oswald";
+  transform: translateY(1.2px);
+}
+
+.header__search-cart input:focus::placeholder {
+  color: transparent;
+}
+
+.header__search-cart button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Oswald";
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header__search-cart button:hover {
+  background: azure;
+  color: #111;
+}
+
+.header__search-cart button:active {
+  background: #d7d7d7;
+  color: #111;
+  transform: scale(0.95);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}

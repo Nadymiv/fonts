@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style_blog/style_fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <title>Блог — Магазин кемпінгу</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+        color: #333;
+      }
+
+      header {
+        background: #031800;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background: #011302eb;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+        transition: background 0.3s;
+      }
+
+      nav a:hover {
+        background: #ffffff;
+        color: black;
+      }
+
+      main {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      h1,
+      h2 {
+        font-family: TD_Zvonar;
+        color: #2d5a27;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      table {
+        font-family: AlexBrush, cursive;
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 16px;
+      }
+
+      table th,
+      table td {
+        border: 1px solid #ccc;
+        padding: 12px;
+        text-align: center;
+      }
+
+      table th {
+        background: #3c763d;
+        color: white;
+      }
+
+      table tr:nth-child(even) {
+        background: #f2f2f2;
+      }
+
+      footer {
+        text-align: center;
+        background: #2d5a27;
+        color: white;
+        padding: 15px;
+        margin-top: 30px;
+      }
+
+      /* Іконкові стилі */
+      .icons-section {
+        text-align: center;
+        margin: 40px auto;
+        font-family: "ND Zvonar", sans-serif;
+      }
+
+      .icon-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+      }
+
+      .icon-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .icon-item i {
+        font-size: 40px;
+        color: #0078ff;
+        margin-bottom: 10px;
+        transition: transform 0.3s, color 0.3s;
+      }
+
+      .icon-item i:hover {
+        transform: scale(1.2);
+        color: #ff6600;
+      }
+
+      .icon-item p {
+        margin: 0;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: #6de16f">Блог кемпінг-магазину</h1>
+      <p>Поради, огляди та цікаві статті для любителів природи</p>
+    </header>
+
+    <nav>
+      <a href="../index.html">Головна</a>
+      <a href="shop.html">Магазин</a>
+      <a href="blog.html">Блог</a>
+      <a href="contacts.html">Контакти</a>
+    </nav>
+
+    <main
+      style="
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <h2 style="color: #2d5a27">Що взяти у похід: поради для новачків</h2>
+      <p style="line-height: 1.6">
+        Якщо ви вирушаєте у свій перший похід, важливо правильно підготувати
+        спорядження. Ми підготували для вас короткий список та порівняння
+        кількох популярних моделей наметів, які можуть стати у пригоді.
+      </p>
+
+      <h2>Порівняння наметів для кемпінгу</h2>
+
+      <table>
+        <tr>
+          <th>Модель</th>
+          <th>Місткість</th>
+          <th>Вага</th>
+          <th>Ціна</th>
+        </tr>
+        <tr>
+          <td>NatureHike Cloud Up</td>
+          <td>2 людини</td>
+          <td>2.1 кг</td>
+          <td>5200 грн</td>
+        </tr>
+        <tr>
+          <td>Tramp Lair 3</td>
+          <td>3 людини</td>
+          <td>3.6 кг</td>
+          <td>6700 грн</td>
+        </tr>
+        <tr>
+          <td>Ferrino Tenere 4</td>
+          <td>4 людини</td>
+          <td>5.4 кг</td>
+          <td>11500 грн</td>
+        </tr>
+      </table>
+
+      <p>
+        Вибираючи намет, звертайте увагу на вагу, місткість та ціну. Якщо ви
+        ходите в походи пішки, краще брати легший намет, а для сімейного
+        відпочинку — більш просторий.
+      </p>
+    </main>
+
+    <footer>
+      <section class="icons-section">
+        <h2>Наші контакти</h2>
+        <div class="icon-container">
+          <div class="icon-item">
+            <i class="fa-solid fa-phone"></i>
+            <p>+380 67 123 45 67</p>
+          </div>
+          <div class="icon-item">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@example.com</p>
+          </div>
+          <div class="icon-item">
+            <i class="fa-brands fa-instagram"></i>
+            <p>@camping_ua</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

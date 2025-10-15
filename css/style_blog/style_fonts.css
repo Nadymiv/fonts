@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "AlexBrush";
+  src: url("../../fonts/AlexBrush-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ND Zvonar";
+  src: url("../../fonts/TD_Zvonar.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

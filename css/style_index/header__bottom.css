@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Playwrite+AU+QLD:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header__bottom {
+  display: flex;
+  height: 30px;
+  padding: 0px 15%;
+  background: #0e0902d8;
+}
+
+.quick__links {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.quick__links a {
+  display: flex;
+  height: 100%;
+  color: white;
+  font-family: "Libertinus Sans";
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.quick__links a:hover {
+  transition: 0.3s ease;
+  background: #fffde7;
+  color: #111;
+}
+
+#popular:hover {
+  background: rgba(255, 194, 12, 0.879);
+}
+
+#sales:hover {
+  background: linear-gradient(
+    to right,
+    rgba(137, 255, 40, 0.888),
+    rgba(33, 255, 96, 0.884)
+  );
+}
+/* 
+#news:hover {
+  background: linear-gradient(
+    to right,
+    rgba(40, 255, 198, 0.888),
+    rgba(24, 220, 255, 0.884)
+  );
+} */
+
+#present:hover {
+  background: linear-gradient(
+    to left,
+    rgba(255, 74, 126, 0.888),
+    rgba(251, 194, 6, 0.884)
+  );
+}
+
+#limited:hover {
+  background: linear-gradient(
+    to right,
+    rgba(255, 75, 16, 0.888),
+    rgba(251, 194, 6, 0.884)
+  );
+}

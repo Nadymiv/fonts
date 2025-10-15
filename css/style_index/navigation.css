@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+AU+QLD:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e0902d8;
+  padding: 0px 15%;
+  font-family: Arial, sans-serif;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+.navbar__menu {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 0px;
+}
+
+.navbar__menu li {
+  display: flex;
+  height: 100%;
+}
+
+.navbar__menu li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 25px;
+  border-radius: 0;
+  color: aliceblue;
+  text-decoration: none;
+  font-family: "Oswald";
+  font-size: 21px;
+  transition: 0.3s ease-in;
+}
+
+.navbar__menu li a:hover {
+  background-color: #fffde7;
+  color: #1d0e03;
+  transition: 0.3s ease-in;
+}
+
+.navbar__menu li a:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}

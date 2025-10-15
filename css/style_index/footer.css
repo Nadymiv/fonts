@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.advantages {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.advantages h2 {
+  font-family: "Oswald";
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #0b3405;
+}
+
+.advantages__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.advantage {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  flex: 1;
+  transition: transform 0.3s;
+}
+
+.advantage:hover {
+  transform: translateY(-5px);
+}
+
+.advantage img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background: #042101;
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 50px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer__logo {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li {
+  margin: 8px 0;
+}
+
+.footer__links a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}
+
+.footer__contacts p {
+  margin: 5px 0;
+}
+
+.footer__socials img {
+  width: 30px;
+  margin: 0 8px;
+  transition: transform 0.3s;
+}
+
+.footer__socials img:hover {
+  transform: scale(1.2);
+}
+
+.footer__bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.new__collection {
+  background: #111;
+  color: white;
+  padding: 60px 0;
+}
+
+.new__collection__container {
+  max-width: 1200px;
+  padding: 0px 15%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.img__new__collection {
+  perspective: 500px; /* додає глибину */
+}
+
+.img__new__collection img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d; /* зберігає 3D-площини */
+}
+
+.img__new__collection img:hover {
+  transform: scale(1.4) rotateY(25deg) rotateX(9deg);
+}
+
+.label__new__collection h2 {
+  font-family: "Oswald";
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.label__new__collection p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff7a00, #ff3d00);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1) rotateY(10deg) rotateX(5deg);
+  background: linear-gradient(90deg, #ff3d00, #ff7a00);
+}
